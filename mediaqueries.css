@@ -1,0 +1,41 @@
+@media (max-width:900px) {
+
+    #menu-img {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .container,
+    .large-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .nav-right img {
+        display: none;
+    }
+
+    .nav-right #user-icon {
+        display: block;
+        width: 30px;
+    }
+
+    .nav-middle .search-box input {
+        width: 10rem;
+    }
+
+    .nav-middle #mic-icon {
+        display: none;
+    }
+
+    .nav-left #logo-img {
+        width: 100px;
+    }
+
+    footer {
+        margin-bottom: 5rem;
+    }
+}
